@@ -1,0 +1,41 @@
+body{
+    background-image: url(arkaplan.jpg);
+    background-repeat:inherit;
+    background-size: 100%;
+   
+ }
+ #butonlar{
+    margin-top: 2%;
+    margin-left: 28%;
+    margin-right: 28%;
+    margin-bottom: 2%;
+  
+ }
+ #footer{
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: azure;
+     color: chartreuse;
+     text-align: center;
+     
+
+ }
+ #yazi{
+     color:black;
+     
+ }
+
+ #instabuton{
+     padding-left: 43%;
+ }
+ #hosgeldin{
+     margin: 10%;
+     padding: 10%;
+     width: 50%;
+     height: 50%;
+ }
+ 
+ 
+

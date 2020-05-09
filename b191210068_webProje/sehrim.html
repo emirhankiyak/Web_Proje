@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="sayfaiskelet.css">
+    <style>
+        #tokat{
+            width: 60%;
+        }
+        div#tokat{
+            opacity: 0.93;
+            filter: alpha(opacity=60);
+        }
+        #yerler{
+          width: 40%;
+          margin-left: 5%;
+        }
+       
+    </style>
+    <title>TOKAT</title>
+</head>
+<body>
+    <div class="shadow-lg bg-success btn rounded mx-auto d-block w-50" id="butonlar">
+        <button onclick="parent.location='hakkimda.html'" class="btn btn-success" type="button">HAKKIMDA</button>
+        <button onclick="parent.location='ozgecmis.html'" class="btn btn-success" type="button">ÖZGEÇMİŞ</button>
+        <button onclick="parent.location='sehrim.html'"   class="btn btn-success" type="button">ŞEHRİM</button>
+        <button onclick="parent.location='takimimiz.html'" class="btn btn-success" type="button">TAKIMIMIZ</button>
+        <button onclick="parent.location='iletisim.html'" class="btn btn-success" type="button">İLETİŞİM</button>
+        <button onclick="parent.location='girisyap.html'" class="btn btn-success" type="button">GİRİŞ YAP</button>
+    </div>
+    <div class="bg-success mx-auto d-block rounded p-3" id="tokat">
+        <h2 style="text-align: center;">TOKAT</h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img title="Kale görünüm 1" class=" mx-auto d-block w-75 rounded" src="tokat.jpg" alt="Tokat">
+              </div>
+              <div class="carousel-item">
+                <img title="Kale Görünüm 2" class="mx-auto d-block w-75 rounded" src="tokat2.jpg" alt="Tokat">
+              </div>
+              <div class="carousel-item">
+                <img title="I <3 Tokat Yazısı / Taşköprü" class="mx-auto d-block w-75 rounded" src="tokat3.jpeg" alt="Tokat">
+              </div>
+              <div class="carousel-item">
+                <img title="Demirköprü Kuşbakışı" class="mx-auto d-block w-75 rounded" src="tokat4.jpg" alt="Tokat">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Önceki</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Sonraki</span>
+            </a>
+          </div>
+          <br>
+          <h3 style="text-align: center;" >KENT BİLGİLERİ</h3>
+          <ul>
+              <li>Tokat'ın güncel nüfusu <b>612.747</b> dir. </li>
+              <li>Orta ve Doğu Karadeniz bölgesinde yer alan Tokat, Akzambaklar şehri olarak bilinir.</li>
+              <li>
+                Tokat'ın <b>12</b> adet ilçesi vardır:
+                <ul>
+                  <li>Almus, Artova, Başçiftlik, Erbaa, Merkez, Niksar, Pazar, Reşadiye, Sulusaray, Turhal, Yeşilyurt, Zile</li>
+                </ul>
+              </li>
+          </ul>
+    </div>
+    <br><br>
+    <div class="bg-success mx-auto d-block p-3 rounded" style="width: 30%;">
+        <h3 style="text-align: center;">GEZİLİP GÖRÜLEBİLECEK YERLERİ</h3>
+    </div>
+    <br>
+    <div class="container">
+      <div class="row">
+           <div class="bg-success p-2 rounded" id="yerler">
+            <h4 style="text-align: center;">BALLICA MAĞARASI</h4>
+            <img class="mx-auto d-block rounded-circle w-75" src="ballica1.jpg" alt="">
+            <br>
+            <ul>             
+              <li>Ballıca Mağarası, Tokat'ın Pazar ilçesi'nin <b>7</b> kilometre güneyinde, Ballıca Köyü'nün yaklaşık <b>1</b> kilometre güneydoğusundadır.</li>
+              <li>Yaşı <b>3,4</b> milyon yıl olarak tahmin edilmektedir.</li>
+              <li><b>10</b> bin metrekare yüzölçümüne sahiptir.</li>
+              <li><b>680</b> m uzunluğunda ve <b>95</b> m yüksekliğindeki Ballıca Mağarası'nın henüz keşfedilmemiş yerleri de bulunmaktadır.</li>
+              <li>Mağaranın içinde koloniler halinde yaşayan cüce yarasalar bulunmaktadır.</li>
+              <li>Daha fazla bilgi için <a style="color: black;" href="http://www.tokat.gov.tr/ballica-magarasi" target="_blank"><b>tıklayın</b></a>. </li>
+            </ul>
+           </div>
+
+           <div class="bg-success p-2 rounded" id="yerler">
+            <h4 style="text-align: center;">SAAT KULESİ</h4>
+            <img class="mx-auto d-block rounded-circle w-75" src="saatkulesi.jpg" alt="">  
+            <br>
+               <ul>
+                  <li><b>1902</b> yılında Behzat Semtinde yapılmıştır.</li>
+                  <li><b>33</b> metredir.</li>
+                  <li>Kapısı güney yönüne bakmaktadır.</li>
+                  <li>Kesme taştan yapılmıştır.</li>
+                  <li>II. Abdulhamid’in padişah oluşunun 25. yılı için halkın yardımlarıyla, mutasarrıf Bekir Paşa ve Belediye Reisi Mütevelli oğlu Enver Bey tarafından yaptırılmıştır.</li>
+                  <li>Dört yöne büyük kadranlarla her yarım saat ve saat başlarında iki dakika ara ile tam çalar durumdadır.</li>
+              </ul>
+           </div>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="bg-success p-2 rounded" id="yerler">
+          <h4 style="text-align: center;">TAŞHAN</h4>
+           <img class="mx-auto d-block rounded-circle w-75" src="tashan.jpg" alt="">
+           <br>
+         <ul>
+           <li><b>1626</b>-<b>1632</b> yılları arasında yapılmış bir Osmanlı eseridir.</li>
+           <li>İçeride alışveriş yapabileceğiniz, bir şeyler yiyip içebileceğiniz mekanlar mevcut. </li>
+           <li><b>2</b> katlıdır.</li>
+           <li>İçte <b>76</b> dışta <b>103</b> mekan vardır.</li>
+           <li>Anadolu'daki en büyük hanlardan birisidir.</li>
+           <li>İçeriden çekilmiş bir görüntü:</li>
+         </ul>
+         <img class="mx-auto d-block rounded w-75" src="tashanic.jpg" alt="">
+        </div>
+
+        <div class="bg-success p-2 rounded" id="yerler">
+          <h4 style="text-align: center;">TOKAT KALESİ</h4>
+          <img class="mx-auto d-block rounded-circle w-75" src="tokatkale.jpg" alt="">  
+          <br>
+          <ul>
+            <li>Roma Dönemi'nde yol güvenliği için kurulmuş ve yaklaşık <b>500</b> yıl Bizans egemenliğinde kalmıştır.</li>
+            <li>ilk defa <b>1074</b> yılında Danişmend Melik Gazi tarafından fethedilmiştir.</li>
+            <li>Osmanlı Devleti zamanında "Çardak-ı Bedevi" olarak anılan zindan, başta Bizans İmparatoru A.Diogenis olmak üzere birçok ünlüye hapis olmuştur.</li>
+            <li>Ayrıca <b>362</b> basamaklı bir merdiven ile kalenin dibine inilebilmektedir. Günümüzde bu merdivenin yolu kapalı durumdadır.</li>
+          </ul>
+        </div>
+   </div>
+    </div>
+    <br>
+      
+    <br><br><br><br><br>
+      <footer id="footer" class="shadow bg-success text-white rounded">
+        <div class="container text-left">
+            <a href="https://www.instagram.com/emir.kiyakk/?hl=tr" target="_blank">
+                <img src="instagram.png" alt="instagram" id="instabuton">
+                <small id="yazi">İnstagram</small>     
+            </a>
+        </div>
+      </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
